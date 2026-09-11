@@ -1,0 +1,17 @@
+Field,Data_Type,Description
+Order_ID,string,Unique identification number for the order
+Order_Date,datetime,Date when the order was placed
+Ship_Date,datetime,Date when the order was shipped
+Customer_ID,string,Unique identification number for the customer
+Category,string,Main product category
+Sub_Category,string,Product sub-category
+Sales,float,Sales value after discount
+Quantity,int,Number of units sold
+Discount,float,Discount applied to the order
+Profit,float,Profit generated from the order
+Shipping_Days,int,Number of days between order and shipment
+Gross_Sales,float,Estimated sales before discount
+Discount_Amount,float,Estimated monetary value of the discount
+Sales_Per_Unit,float,Sales divided by quantity
+Profit_Margin,float,Profit as a percentage of sales
+Profit_Status,string,Shows whether the transaction generated profit or loss
